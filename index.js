@@ -56,9 +56,22 @@
 // console.log(h1)
 // const element = <h1 className="header" >This is JSX </h1>
 //console.log(element)
+
+// const page = (
+//     <div>
+//         <h1 className="header" >This is JSX </h1>
+//         <p>This is paragraph </p>
+//     </div>
+// )
+
+const nav = (
+    <nav>
+        <h1>Website</h1>
+        <ul><li>Pricing</li></ul>
+        <ul><li>About</li></ul>
+        <ul><li>Contacts</li></ul>
+    </nav>
+)
 ReactDOM.render(
-    <div>
-    <h1 className="header" >This is JSX </h1>
-    <p>This is paragraph </p>
-    </div>,
+    nav,
     document.getElementById("root"))
