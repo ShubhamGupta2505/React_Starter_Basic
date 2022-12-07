@@ -57,23 +57,30 @@
 // const element = <h1 className="header" >This is JSX </h1>
 //console.log(element)
 
-// const page = (
-//     <div>
-//         <h1 className="header" >This is JSX </h1>
-//         <p>This is paragraph </p>
-//     </div>
-// )
-
-const nav = (
-    <nav>
-        <h1>Website</h1>
-        <ul><li>Pricing</li></ul>
-        <ul><li>About</li></ul>
-        <ul><li>Contacts</li></ul>
-    </nav>
+const page = (
+    <div>
+        <h1  >This is awesome website </h1>
+        <h3> Let see why it is awesome : </h3>
+        <ol>
+            <li>It is created by me</li>
+            <li>It is user friendly </li>
+            <li>it is useful for everyone </li>
+        </ol>
+        <p>This is paragraph </p>
+    </div>
 )
+
+// const nav = (
+//     <nav>
+//         <h1>Website</h1>
+//         <ul><li>Pricing</li></ul>
+//         <ul><li>About</li></ul>
+//         <ul><li>Contacts</li></ul>
+//     </nav>
+// )
 // ReactDOM.render(
 //     nav,
 //     document.getElementById("root"))
 
-document.getElementById("root").append(JSON.stringify(nav))
+// document.getElementById("root").append(JSON.stringify(nav))
+ReactDOM.render(page,document.getElementById("root"))
