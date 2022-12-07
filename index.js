@@ -72,6 +72,8 @@ const nav = (
         <ul><li>Contacts</li></ul>
     </nav>
 )
-ReactDOM.render(
-    nav,
-    document.getElementById("root"))
+// ReactDOM.render(
+//     nav,
+//     document.getElementById("root"))
+
+document.getElementById("root").append(JSON.stringify(nav))
