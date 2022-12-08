@@ -1,5 +1,6 @@
 const page1 = (
     <div>
+        <img src="./react-logo.png" width= "80px" />
         <h1>Fun facts About React</h1>
         <ul>
             <li>Was First released in 2013</li>
