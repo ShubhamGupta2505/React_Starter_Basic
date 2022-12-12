@@ -54,7 +54,7 @@ function MainContent(){
             <ol>
                 <li>It is a popular library </li>
                 <li>It is fun to learn and creative.</li>
-                <li>It is more likely to get a job as developer .</li>
+                <li>It  is more likely to get a job as developer .</li>
             </ol>
         </div>
     )
