@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "webpack-cdn-plugin": "^3.3.1"
+  }
+}
